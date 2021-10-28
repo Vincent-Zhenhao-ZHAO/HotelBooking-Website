@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mange Data</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="../HomePage/index.css">
+    <link rel="stylesheet" href="../Check/check.css">
+    <script src="../../app.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="menu">
+                <a href=".././index.html" class="logo">
+                    <img src="#" alt="">
+                    <h2> Welcome! Manager Vincent!</h2>
+                </a>
+                <div class="hotel-menu">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </div>
+                <ul class="header-list">
+                    <li class="header-each">
+                        <a class="header-link" id="home">Home</a>
+                    </li>
+                    <li class="header-each">
+                        <a class="header-link" id="book">Book</a>
+                    </li>
+                    <li class="header-each">
+                        <a class="header-link" id="feedback">Feedback</a>
+                    </li>
+                    <li>
+                        <a class="header-link" id="check">Check</a>
+                    </li>
+                    <li>
+                        <a class="header-link" id="change">Change account</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <h5 class="section-head">
+            <span class="heading">Contact information</span>
+            <span class="sub-heading">Check one by ID, or view all contact information. <br></span>
+        </h5>
+        <div class="contact-content">
+            <form class="contact-form">
+                <div class="input-group-wrap">
+                    <div class="inputInformation">
+                        <select class="options" id="contactCheckSelect">
+                            <option value="checkSelect">SELECT A OPTION</option>
+                            <option value="view">view</option>
+                            <option value="check">check</option>
+                        </select>
+                        <span class="bar"></span>
+                    </div>
+                    <div class="inputInformation">
+                        <input type="text" class="input" placeholder="ID" id="contactID" required>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+                <button type="button" class="btn form-btn btn-purple" id="contactViewBtn">
+                    view all messages
+                    <span class="dots"><i class="fas fa-elipsis-h"></i></span>
+                </button>
+                <button type="button" class="btn form-btn btn-purple" id="contactCheckBtn">
+                    check one messages
+                    <span class="dots"><i class="fas fa-elipsis-h"></i></span>
+                </button>
+            </form>
+        </div>
+    </section>
+    <section>
+        <h5 class="section-head">
+            <span class="heading">Booking information</span>
+            <span class="sub-heading">Check one by id, or view all booking information.<br></span>
+        </h5>
+        <div class="contact-content">
+            <form class="contact-form">
+                <div class="input-group-wrap">
+                    <div class="inputInformation">
+                        <select class="options" id="bookingCheckSelect">
+                            <option value="checkSelect">SELECT A OPTION</option>
+                            <option value="view">view</option>
+                            <option value="check">check</option>
+                        </select>
+                        <span class="bar"></span>
+                    </div>
+                    <div class="inputInformation">
+                        <input type="text" class="input" placeholder="ID" id="bookingID" required>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+                <button type="button" class="btn form-btn btn-purple" id="bookingViewBtn">
+                    view all messages
+                    <span class="dots"><i class="fas fa-elipsis-h"></i></span>
+                </button>
+                <button type="button" class="btn form-btn btn-purple" id="bookingCheckBtn">
+                    check one messages
+                    <span class="dots"><i class="fas fa-elipsis-h"></i></span>
+                </button>
+            </form>
+        </div>
+    </section>
+    <section>
+        <h5 class="section-head">
+            <span class="heading">Feedback information</span>
+            <span class="sub-heading">Check one by ID, or view all feedback information.<br></span>
+        </h5>
+        <div class="contact-content">
+            <form class="contact-form">
+                <div class="input-group-wrap">
+                    <div class="inputInformation">
+                        <select class="options" id="feedbackCheckSelect">
+                            <option value="checkSelect">SELECT A OPTION</option>
+                            <option value="view">view</option>
+                            <option value="check">check</option>
+                        </select>
+                        <span class="bar"></span>
+                    </div>
+                    <div class="inputInformation">
+                        <input type="text" class="input" placeholder="ID" id="feedbackID" required>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+                <button type="button" class="btn form-btn btn-purple" id="feedbackViewBtn">
+                    view all messages
+                    <span class="dots"><i class="fas fa-elipsis-h"></i></span>
+                </button>
+                <button type="button" class="btn form-btn btn-purple" id="feedbackCheckBtn">
+                    check one messages
+                    <span class="dots"><i class="fas fa-elipsis-h"></i></span>
+                </button>
+            </form>
+        </div>
+    </section>
+    <section>
+        <h5 class="section-head">
+            <span class="heading">Search information</span>
+            <span class="sub-heading">Check one by ID, or view all search information.<br></span>
+        </h5>
+        <div class="contact-content">
+            <form class="contact-form">
+                <div class="input-group-wrap">
+                    <div class="inputInformation">
+                        <select class="options" id="searchCheckSelect">
+                            <option value="checkSelect">SELECT A OPTION</option>
+                            <option value="view">view</option>
+                            <option value="check">check</option>
+                        </select>
+                        <span class="bar"></span>
+                    </div>
+                    <div class="inputInformation">
+                        <input type="text" class="input" placeholder="ID" id="searchID" required>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+                <button type="button" class="btn form-btn btn-purple" id="searchViewBtn">
+                    view all messages
+                    <span class="dots"><i class="fas fa-elipsis-h"></i></span>
+                </button>
+                <button type="button" class="btn form-btn btn-purple" id="searchCheckBtn">
+                    check one messages
+                    <span class="dots"><i class="fas fa-elipsis-h"></i></span>
+                </button>
+            </form>
+        </div>
+    </section>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="admin.js"></script>
+</body>
+</html>

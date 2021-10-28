@@ -1,0 +1,116 @@
+/* general */
+body{
+    background-image: url(../images/booking/Booking.jpg);
+    background-size: cover;
+}
+/* form */
+.Bookingform{
+    margin: auto;
+    background-color: gray;
+    height: 400px;
+    width: 800px;
+    margin-top: 100px;
+    opacity: 0.7;
+}
+/* from left side */
+.firstRow{
+    border: none;
+    width: 400px;
+    margin-top: 1%;
+    position: absolute;
+}
+/* form right side */
+.secondRow{
+    border: none;
+    width: 400px;
+    margin-top: 4%;
+    margin-left: 400px;
+}
+/* form information */
+.bookContent{
+    border: 1px solid black;
+    margin: 10px;
+    margin-left: 8px;
+    padding: 5px;
+}
+.bookContent .bookInput{
+    border: none;
+    outline: none;
+    background: transparent;
+    margin-left: 8px;
+    width: 300px;
+    color: wheat;
+}
+::placeholder{
+    color: whitesmoke;
+}
+.fa{
+    display: inline-block;
+    color: red;
+    border-right: 1px solid white;
+    padding: 8px;
+    margin-left: 8px;
+}
+/* button */
+#bookButton{
+    margin-top: 30px;
+    margin-left: 40%;
+    background: transparent;
+    color: white;
+    width: 150px;
+    border: 1px solid red;
+    outline: none;
+    padding: 15px;
+    font-size: 20px;
+}
+/* meida */
+@media screen and (max-width: 768px){
+    .fa{
+        display: none;
+    }
+    .Bookingform{
+        margin: auto;
+        background-color: gray;
+        height: 300px;
+        width: 250px;
+        margin-top: 100px;
+        opacity: 0.7;
+    }
+    .firstRow{
+        border: none;
+        width: 120px;
+        margin-top: 10%;
+        position: absolute;
+    }
+    .secondRow{
+        border: none;
+        width: 120px;
+        margin-top: 18%;
+        margin-left: 120px;
+    }
+    .bookContent{
+        border: 1px solid black;
+        margin: 5px;
+        margin-left: 8px;
+        padding: 5px;
+    }
+    .bookContent .bookInput{
+        border: none;
+        outline: none;
+        background: transparent;
+        margin-left: 8px;
+        width: 80px;
+        color: wheat;
+    }
+    #bookButton{
+        margin-top: 20px;
+        margin-left: 80px;
+        background: transparent;
+        color: white;
+        width: 100px;
+        border: 1px solid red;
+        outline: none;
+        padding: 2px;
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,80 @@
+/*Import the fonts used*/
+.btn{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0.5rem 3.6rem;
+    border: none;
+    border-radius: 10rem;
+    display: inline-flex;
+    align-items: center;
+}
+.btn-purple{
+    background-image: var(--gradient-color);
+}
+.btn-purple:hover{
+    background-image: var(--gradient-color-alt);
+}
+/* Contract us section */
+.contact-content{
+    display: flex;
+    justify-self: center;
+    margin-left: 10%;
+}
+.contact-wrap{
+    display: none;
+}
+.contact-form{
+    width: 100%;
+    background-image: var(--gradient-color);
+    padding: 2.5rem;
+}
+.contact-form .input{
+    display: block;
+    background-color: transparent;
+    color: white;
+    font-weight: normal;
+    border-bottom: 2px solid whitesmoke;
+    padding-left: 0;
+}
+.bar{
+    display: block;
+    position: relative;
+}
+.bar::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    background-color: var(--purple-light);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s;
+}
+.contact-form .input:focus + .bar::after{
+    transform: scaleX(1);
+}
+.contact-form .btn{
+    margin-left: 5%;
+}
+/* Media queries */
+@media screen and (min-width: 768px){
+    /* Contact section */
+    .contact-content{
+        justify-content: space-between;
+    }
+    .contact-form{
+        flex: 0 0 50%;
+        align-self: center;
+        margin-left: 30rem;
+    }
+    .inputInformation-wrap .inputInformation:last-child{
+        margin-right: 0;
+    }
+    .contact-form .btn{
+        margin-left: 5%;
+    }
+}

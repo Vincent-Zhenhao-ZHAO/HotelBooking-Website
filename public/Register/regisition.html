@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regisition form</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <script src="../../app.js"></script>
+    <link rel="stylesheet" href="./regisition.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.1.2/tailwind.min.css" 
+    integrity="sha512-RntatPOhEcQEA81gC/esYoCkGkL7AYV7TeTPoU+R9zE44/yWxVvLIBfBSaMu78rhoDd73ZeRHXRJN5+aPEK53Q==" crossorigin="anonymous" />
+</head>
+<body>
+    <!-- background -->
+    <div class="background" id="background"></div>
+    <!-- regisition from -->
+    <div class="bg-white rounded p-10 text-center shadow-md">
+        <h1 class="text-3xl">Join us !</h1>
+        <p class="text-sm text-gray-700">Set a password until you can see the background clearly.</p>
+        <div class="my-4 text-left">
+            <label for="username" class="text-gray-900">Username:</label>
+            <input type="text" class="border block w-full p-2 mt-2 rounded" id="username" placeholder="Enter Username">
+        </div>
+        <div class="my-4 text-left">
+            <label for="password" class="text-gray-900">Password:</label>
+            <input type="password" class="border block w-full p-2 mt-2 rounded" id="password" placeholder="Enter Password">
+        </div>
+        <button class="bg-black text-white py-2 mt-4 inline-block w-full rounded" id="btn-submit">Sign in</button>
+        <button class="bg-black text-white py-2 mt-4 inline-block w-full rounded" id="btn-reset">Reset</button>
+    </div>
+    <!-- source code -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="./regisition.js" ></script>
+</body>
+</html>

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check</title>
+    <link rel="stylesheet" href="../HomePage/index.css">
+    <link rel="stylesheet" href="check.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <!-- nav bar -->
+    <header class="header">
+        <div class="container">
+            <nav class="menu">
+                <a href="../HomePage/index.html" class="logo">
+                    <img src="#" alt="">
+                </a>
+                <div class="hotel-menu">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </div>
+                <ul class="header-list">
+                    <li class="header-each">
+                        <a class="header-link" id="home">Home</a>
+                    </li>
+                    <li class="header-each">
+                        <a class="header-link" id="book">Book</a>
+                    </li>
+                    <li class="header-each">
+                        <a class="header-link" id="feedback">Feedback</a>
+                    </li>
+                    <li>
+                        <a class="header-link" id="check">Check</a>
+                    </li>
+                    <li>
+                        <a class="header-link" id="change">Change account</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- contact part -->
+    <section>
+        <h5 class="section-head">
+            <span class="heading">Contact information</span>
+            <span class="sub-heading">Check, edit or delete contact information by using id we gave you.<br></span>
+            <span class="sub-heading">And also we may need your email address to confirm it is you.</span>
+        </h5>
+        <div class="contact-content">
+            <form class="contact-form">
+                <div class="input-group-wrap">
+                    <div class="inputInformation">
+                        <select class="options" id="contactCheckSelect">
+                            <option value="checkSelect">SELECT A OPTION</option>
+                            <option value="edit">edit</option>
+                            <option value="delete">delete</option>
+                            <option value="check">check</option>
+                        </select>
+                        <span class="bar"></span>
+                    </div>
+                    <div class="inputInformation">
+                        <input type="text" class="input" placeholder="ID" id="contactID" required>
+                        <span class="bar"></span>
+                    </div>
+                    <div class="inputInformation">
+                        <input type="text" class="input" placeholder="Name" id="contactName" required>
+                        <span class="bar"></span>
+                    </div>
+                    <div class="inputInformation">
+                        <input type="email" class="input" placeholder="E-mail" id="contactEmail" required>
+                        <span class="bar"></span>
+                    </div>
+                    <div class="inputInformation">
+                        <input type="text" class="input" placeholder="Subject" id="contactSubject" required>
+                        <span class="bar"></span>
+                    </div>
+                    <div class="inputInformation">
+                        <textarea class="input" cols="30" rows="8" placeholder="Please say something to us" id="contactInformation" required></textarea>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+                <button type="button" class="btn form-btn btn-purple" id="contactEditBtn">
+                    edit messages
+                    <span class="dots"><i class="fas fa-elipsis-h"></i></span>
+                </button>
+                <button type="button" class="btn form-btn btn-purple" id="contactResetBtn">
+                    reset messages
+                    <span class="dots"><i class="fas fa-elipsis-h"></i></span>
+                </button>
+                <button type="button" class="btn form-btn btn-purple" id="contactDeleteBtn">
+                    delete messages
+                    <span class="dots"><i class="fas fa-elipsis-h"></i></span>
+                </button>
+                <button type="button" class="btn form-btn btn-purple" id="contactCheckBtn">
+                    check messages
+                    <span class="dots"><i class="fas fa-elipsis-h"></i></span>
+                </button>
+            </form>
+        </div>
+    </section>
+    <!-- booking part -->
+    <section>
+        <h5 class="section-head">
+            <span class="heading">Booking information</span>
+            <span class="sub-heading">Check, edit or delete booking information by using id we gave you.<br></span>
+            <span class="sub-heading">And also we may need your email address to confirm it is you.</span>
+        </h5>
+        <div class="contact-content">
+            <form class="contact-form">
+                <div class="input-group-wrap">
+                    <div class="inputInformation">
+                        <select class="options" id="bookingCheckSelect">
+                            <option value="checkSelect">SELECT A OPTION</option>
+                            <option value="edit">edit</option>
+                            <option value="delete">delete</option>
+                            <option value="check">check</option>
+                        </select>
+                        <span class="bar"></span>
+                    </div>
+                    <div class="inputInformation">
+                        <input type="text" class="input" placeholder="ID" id="bookingID" required>
+                        <span class="bar"></span>
+                    </div>
+                    <div class="inputInformation">
+                        <input type="text" class="input" placeholder="First Name" id="bookingFirstName" required>
+                        <span class="bar"></span>
+                    </div>
+                    <div class="inputInformation">
+                        <input type="text" class="input" placeholder= "Second Name" id="bookingSecondName" required>
+                        <span class="bar"></span>
+                    </div>
+                    <div class="inputInformation">
+                        <input type="email" class="input" placeholder="Phone Number" id="bookingPhoneNumber" required>
+                        <span class="bar"></span>
+                    </div>
+                    <div class="inputInformation">
+                        <input type="text" class="input" placeholder= "Email Address" id="bookingEmail" required>
+                        <span class="bar"></span>
+                    </div>
+                    <div class="inputInformation">
+                        <input type="text" class="input" placeholder= "Arrive Date dd-mm-yyyy" id="bookingArriveDate" required>
+                        <span class="bar"></span>
+                    </div>
+                    <div class="inputInformation">
+                        <input type="text" class="input" placeholder= "Leave Date dd-mm-yyyy" id="bookingLeaveDate" required>
+                        <span class="bar"></span>
+                    </div>
+                    <div class="inputInformation">
+                        <input type="text" class="input" placeholder= "Total Number" id="bookingTotalNumber" required>
+                        <span class="bar"></span>
+                    </div>
+                    <div class="inputInformation">
+                        <input type="text" class="input" placeholder= "Children Number" id="bookingChildrenNumber" required>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+                <button type="button" class="btn form-btn btn-purple" id="bookingEditBtn">
+                    edit messages
+                    <span class="dots"><i class="fas fa-elipsis-h"></i></span>
+                </button>
+                <button type="button" class="btn form-btn btn-purple" id="bookingResetBtn">
+                    reset messages
+                    <span class="dots"><i class="fas fa-elipsis-h"></i></span>
+                </button>
+                <button type="button" class="btn form-btn btn-purple" id="bookingDeleteBtn">
+                    delete messages
+                    <span class="dots"><i class="fas fa-elipsis-h"></i></span>
+                </button>
+                <button type="button" class="btn form-btn btn-purple" id="bookingCheckBtn">
+                    check messages
+                    <span class="dots"><i class="fas fa-elipsis-h"></i></span>
+                </button>
+            </form>
+        </div>
+    </section>
+    <!-- feedback part -->
+    <section>
+        <h5 class="section-head">
+            <span class="heading">Feedback information</span>
+            <span class="sub-heading">Check, edit or delete feedback information by using id we gave you.<br></span>
+            <span class="sub-heading">And also we may need your email address to confirm it is you.</span>
+        </h5>
+        <div class="contact-content">
+            <form class="contact-form">
+                <div class="input-group-wrap">
+                    <div class="inputInformation">
+                        <select class="options" id="feedbackCheckSelect">
+                            <option value="checkSelect">SELECT A OPTION</option>
+                            <option value="edit">edit</option>
+                            <option value="delete">delete</option>
+                            <option value="check">check</option>
+                        </select>
+                        <span class="bar"></span>
+                    </div>
+                    <div class="inputInformation">
+                        <input type="text" class="input" placeholder="ID" id="feedbackID" required>
+                        <span class="bar"></span>
+                    </div>
+                    <div class="inputInformation">
+                        <input type="text" class="input" placeholder="Name" id="feedbackName" required>
+                        <span class="bar"></span>
+                    </div>
+                    <div class="inputInformation">
+                        <input type="email" class="input" placeholder="E-mail" id="feedbackEmail" required>
+                        <span class="bar"></span>
+                    </div>
+                    <div class="inputInformation">
+                        <textarea class="input" cols="30" rows="8" placeholder="Please enter your feedback in here" id="feedback" required></textarea>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+                <button type="button" class="btn form-btn btn-purple" id="feedbackEditBtn">
+                    edit messages
+                    <span class="dots"><i class="fas fa-elipsis-h"></i></span>
+                </button>
+                <button type="button" class="btn form-btn btn-purple" id="feedbackResetBtn">
+                    reset messages
+                    <span class="dots"><i class="fas fa-elipsis-h"></i></span>
+                </button>
+                <button type="button" class="btn form-btn btn-purple" id="feedbackDeleteBtn">
+                    delete messages
+                    <span class="dots"><i class="fas fa-elipsis-h"></i></span>
+                </button>
+                <button type="button" class="btn form-btn btn-purple" id="feedbackCheckBtn">
+                    check messages
+                    <span class="dots"><i class="fas fa-elipsis-h"></i></span>
+                </button>
+            </form>
+        </div>
+    </section>
+    <!-- source code -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="check.js"></script>
+    <script src="../../app.js"></script>
+</body>
+</html>
