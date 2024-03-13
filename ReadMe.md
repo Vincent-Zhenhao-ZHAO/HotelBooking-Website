@@ -1,30 +1,4 @@
 #### Project Name: Hotel booking system #############
-#### The aim of this project #################
-The aim of the project is to make a hotelBooking system and can help user to 
-    - login
-    - register
-    - booking
-    - contact
-    - view information of rooms
-    - leave feedback
-    - check,edit, delete inforamtion by using id and email address
-For admin, can help admin to:
-    - check and view all inforamtion, easy to collect.
-    - check one inforamtion by using id.
-You can use login page to login admin page:
-    - username:vincent
-    - password:123
-#################################################
-#### Required environment ###########
-    for dependencies: {
-        "express": "^4.17.1", # used in sever side
-        "jest": "^26.6.3",     # used in test api things
-        "supertest": "^6.1.3"  # used in test api things
-      }
-    for devDependencies: {
-    "eslint": "^7.25.0",   # help to improve code quality.
-    "nodemon": "^2.0.7"    # help to save time by writing code.
-  }
 # Hotel Booking System
 
 ## Aim of the Project
