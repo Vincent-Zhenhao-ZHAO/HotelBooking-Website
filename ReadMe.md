@@ -26,13 +26,13 @@ Dependencies needed for the project:
 
 ```json
 "dependencies": {
-    "express": "^4.17.1",  // Used on the server side
-    "jest": "^26.6.3",     // Used for testing API functionalities
-    "supertest": "^6.1.3"  // Used for testing API functionalities
+    "express": "^4.17.1",  
+    "jest": "^26.6.3",     
+    "supertest": "^6.1.3"  
 },
 "devDependencies": {
-    "eslint": "^7.25.0",   // Helps improve code quality
-    "nodemon": "^2.0.7"    // Saves time by automating server restarts upon code changes
+    "eslint": "^7.25.0", 
+    "nodemon": "^2.0.7"    
 }
 
 ## Used CDNs
