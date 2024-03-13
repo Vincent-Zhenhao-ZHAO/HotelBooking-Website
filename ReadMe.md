@@ -75,6 +75,7 @@ Dependencies needed for the project:
   "start": "node server.js",
   "dev": "nodemon server.js"
 },
+```
 
 ## General Commands to Start
 
