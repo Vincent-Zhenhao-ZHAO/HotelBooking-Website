@@ -1,4 +1,3 @@
-#### Project Name: Hotel booking system #############
 # Hotel Booking System
 
 ## Aim of the Project
