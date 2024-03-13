@@ -34,6 +34,7 @@ Dependencies needed for the project:
     "eslint": "^7.25.0", 
     "nodemon": "^2.0.7"    
 }
+```
 
 ## Used CDNs
 
